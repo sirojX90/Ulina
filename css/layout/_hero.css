@@ -3,6 +3,7 @@ header{
     /* height: 900px; */
     /* margin: 0 auto; */
     background: #DEECEC;
+    height: 2000px;
 }
 .bg_img{
     width: 1440px;
@@ -12,13 +13,13 @@ header{
     position: relative;
 }
 .bg_img > img:first-child{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     position: absolute;
     /* left: 500px; */
 }
 .bg_img > img:last-child{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     top: 0;
     left: 500px;
