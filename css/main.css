@@ -1,0 +1,18 @@
+/* ===== BASE ===== */
+
+/* @import "basic.css"; */
+@import url("/css/base/_basic.css");
+@import url("/css/base/_variable.css");
+
+/* ===== LOYOUT ===== */
+
+@import url("/css/layout/_navbar.css");
+@import url("/css/layout/_hero.css");
+@import url("/css/layout/_services.css");
+@import url("/css/layout/_latest.css");
+@import url("/css/layout/_product.css");
+@import url("/css/layout/_products.css");
+@import url("/css/layout/_category.css");
+@import url("/css/layout/_about.css");
+@import url("/css/layout/_partner.css");
+@import url("/css/layout/_footer.css");

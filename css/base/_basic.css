@@ -1,0 +1,47 @@
+/* Fonts */
+
+@font-face {
+  font-family: Cormorant;
+  src: url("/fonts/Cormorant-Regular.ttf");
+}
+@font-face {
+  font-family: WorkSans;
+  src: url("/fonts/WorkSans-Regular.ttf");
+}
+@font-face {
+  font-family: Outfit;
+  src: url("/fonts/Outfit-Regular.ttf");
+}
+
+/* BASIC STYLE */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 111rem;
+  margin: 0 auto;
+}

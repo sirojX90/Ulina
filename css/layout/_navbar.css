@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.navbar > .logo{
+    /* border: 1px solid red; */
+}
+.container{
+    border: 1px solid blue;
+}
