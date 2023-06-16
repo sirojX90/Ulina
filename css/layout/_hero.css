@@ -1,10 +1,40 @@
 header{
-    /* width: 1440px; */
-    /* height: 900px; */
-    /* margin: 0 auto; */
     background: #DEECEC;
-    height: 2000px;
+    position: relative;
 }
+.head_section{
+    display: flex;
+    gap: 4rem;
+    position: absolute;
+    z-index: 999;
+}
+.head_titil{
+    width: 60%;
+}
+.head_titil > h4{
+    margin-top: 17.3rem;
+}
+.head_titil > h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: var(--black-color);
+    margin: 1.5rem 0;
+}
+.head_titil > button{
+    margin-top: 2.5rem;
+    margin-bottom: 20rem;
+}
+.head_img{
+    width: 40%;
+    margin-top: 4.5rem;
+}
+.head_img > img{
+    width: 100%;
+}
+
 .bg_img{
     width: 1440px;
     height: 834px;
@@ -13,14 +43,11 @@ header{
     position: relative;
 }
 .bg_img > img:first-child{
-    /* border: 1px solid red; */
-    width: 100%;
     position: absolute;
-    /* left: 500px; */
+    top: -8.5rem;
 }
 .bg_img > img:last-child{
-    /* border: 1px solid red; */
     position: absolute;
-    top: 0;
-    left: 500px;
+    top: 7.8rem;
+    right: 18rem;
 }

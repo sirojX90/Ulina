@@ -9,3 +9,30 @@
 
 /* ==== GENERAL CLASS ===== */
 
+.titel_h4{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: var(--text-bg-color);
+}
+.titel_p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: var(--color-p);
+}
+.titel_btn{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    background: var(--text-bg-color);
+    border-radius: 3.8rem;
+    padding: 1.1rem 3.3rem;
+}
