@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15rem;
+    gap: 15.5rem;
     padding: 3.5rem 0 0 0;
     background: #DEECEC;
     border-bottom: .8px solid #84BABE;
@@ -45,7 +45,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 6rem;
+    gap: 5rem;
 }
 .menu > ul > li{
     border-bottom: 2px solid #DEECEC;
@@ -61,7 +61,7 @@ nav{
     padding: 0 .5rem;
 }
 .menu > ul > li:hover{
-    transition: .8s;
+    transition: .6s;
     border-bottom: 2px solid #84BABE;
 }
 .menu > ul > li:hover a{

@@ -1,0 +1,125 @@
+/* =========== LATEST SECTION =========== */
+
+#latest_section{
+    background-image: url("/img/services/Ellipse.svg");
+    background-repeat: no-repeat;
+    background-position: 50px 400px;
+}
+.latest_section{
+    padding: 3rem 0 8rem 0;
+}
+.latest_section > p{
+    margin-bottom: 3rem;
+}
+.women_clothes{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.ladies_top{
+    width: 25%;
+    position: relative;
+}
+.ladies_top > .img{
+    background: #F7F8FC;
+    border-radius: 4px;
+    width: 25.5rem;
+    height: 33rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ladies_top > .top_sale > .top{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    padding: 0 7px;
+    color: #FFFFFF;
+    background: #31797E;
+    border-radius: 2px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.ladies_top > .top_sale > .sale{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    padding: 0 7px;
+    color: #FFFFFF;
+    background: #F04726;
+    border-radius: 2px;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+.women_clothes > .ladies_top:last-child > .top_sale > .sale{
+    background: #31797E;
+}
+.ladies_top > .review{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.ladies_top > .review > p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #7F8698;
+}
+.ladies_top > h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    color: #34394C;
+}
+.ladies_top > .cost{
+    display: flex;
+    justify-content: space-between;
+}
+.ladies_top:nth-child(3) > .cost{
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+}
+.ladies_top > .cost > span:first-child{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #297176;
+}
+.ladies_top > .cost > span:last-child > strike{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #969DAD;
+}
+.ladies_top > .cost > .l_s_xl{
+    margin-top: 5px;
+}
+.ladies_top > .cost > .l_s_xl > span{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #A2A5AD;
+    border: 0.8px solid #A5A9B3;
+    border-radius: 2px;
+    padding: 0 .5rem;
+}

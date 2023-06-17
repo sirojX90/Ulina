@@ -9,6 +9,14 @@
 
 /* ==== GENERAL CLASS ===== */
 
+.titel_h2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 6rem;
+    color: #34394C;
+}
 .titel_h4{
     font-family: 'Outfit';
     font-style: normal;
@@ -33,6 +41,7 @@
     line-height: 2.4rem;
     color: #FFFFFF;
     background: var(--text-bg-color);
+    border: 2px solid var(--text-bg-color);
     border-radius: 3.8rem;
     padding: 1.1rem 3.3rem;
 }

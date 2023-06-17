@@ -1,3 +1,5 @@
+/* =========== HERO SECTION =========== */
+
 header{
     background: #DEECEC;
     position: relative;
@@ -25,7 +27,12 @@ header{
 }
 .head_titil > button{
     margin-top: 2.5rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
+}
+.head_titil > button:hover{
+    color: var(--text-bg-color);
+    background: #DEECEC;
+    border: 2px solid var(--text-bg-color);
 }
 .head_img{
     width: 40%;
@@ -34,10 +41,9 @@ header{
 .head_img > img{
     width: 100%;
 }
-
 .bg_img{
     width: 1440px;
-    height: 834px;
+    height: 750px;
     margin: 0 auto;
     display: flex;
     position: relative;

@@ -1,0 +1,259 @@
+/* =========== PRODUCTS SECTION =========== */
+
+.products_section{
+    padding: 12.5rem 0 4rem 0;
+}
+.products_section > .products_titil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.products_section > .products_titil > .selection{
+    display: flex;
+    gap: 5.5rem;
+}
+.products_section > .products_titil > .selection > p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 60px;
+    color: #AFB4C4;
+}
+.products_section > .products_titil > .selection > p:hover{
+    color: #34394C;
+}
+.products_section > .products_clothes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 9rem;
+}
+.products_section > .products_clothes > .products_top{
+    width: 23.2%;
+    position: relative;
+}
+.products_clothes > .products_top > .img{
+    width: 255px;
+    height: 330px;
+    background: #F7F8FC;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.products_top > .top_sale > .top{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    padding: 0 7px;
+    color: #FFFFFF;
+    background: #31797E;
+    border-radius: 2px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.products_top > .top_sale > .sale{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    padding: 0 7px;
+    color: #FFFFFF;
+    background: #F04726;
+    border-radius: 2px;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+.products_clothes > .products_top:nth-child(4) > .top_sale > .sale{
+    background: #31797E;
+}
+.products_clothes > .products_top:nth-child(8) > .top_sale > .sale{
+    background: #31797E;
+}
+.products_top > .review{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.products_top > .review > p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #7F8698;
+}
+.products_top > h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    color: #34394C;
+}
+.products_top > .cost > span:first-child{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #297176;
+}
+.products_top > .cost > span:last-child > strike{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #969DAD;
+    margin-left: 2rem;
+}
+.products_top > .color_size{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.6rem;
+}
+.products_top > .color_size > .colors{
+    display: flex;
+    gap: 1rem;
+}
+.products_top > .color_size > .colors > .color{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+.products_top:first-child > .color_size > .colors > .color_1{
+    background: #2ED0E7;
+}
+.products_top:first-child > .color_size > .colors > .color_2{
+    background: #C399AD;
+}
+.products_top:first-child > .color_size > .colors > .color_3{
+    background: #040404;
+}
+.products_top:nth-child(3) > .color_size > .colors > .color_1{
+    background: #BA2828;
+}
+.products_top:nth-child(3) > .color_size > .colors > .color_2{
+    background: #E2C048;
+}
+.products_top:nth-child(3) > .color_size > .colors > .color_3{
+    background: #040404;
+}
+.products_top:nth-child(4) > .color_size > .colors > .color_1{
+    background: #BA2828;
+}
+.products_top:nth-child(4) > .color_size > .colors > .color_2{
+    background: #E5D4D1;
+}
+.products_top:nth-child(4) > .color_size > .colors > .color_3{
+    background: #040404;
+}
+.products_top:nth-child(5) > .color_size > .colors > .color_1{
+    background: #BA2828;
+}
+.products_top:nth-child(5) > .color_size > .colors > .color_2{
+    background: #56C4E7;
+}
+.products_top:nth-child(5) > .color_size > .colors > .color_3{
+    background: #040404;
+}
+.products_top:nth-child(7) > .color_size > .colors > .color_1{
+    background: #BA2828;
+}
+.products_top:nth-child(7) > .color_size > .colors > .color_2{
+    background: #886652;
+}
+.products_top:nth-child(7) > .color_size > .colors > .color_3{
+    background: #040404;
+}
+.products_top:nth-child(7) > .color_size > .colors > .color_1{
+    background: #BA2828;
+}
+.products_top:nth-child(7) > .color_size > .colors > .color_2{
+    background: #D4C3DF;
+}
+.products_top:nth-child(7) > .color_size > .colors > .color_3{
+    background: #040404;
+}
+.products_top > .color_size > .l_s_xl{
+    margin-top: 5px;
+}
+.products_top > .color_size > .l_s_xl > span{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #A2A5AD;
+    border: 0.8px solid #A5A9B3;
+    border-radius: 2px;
+    padding: 0 .5rem;
+}
+.products_section > .product_banner{
+    display: flex;
+    gap: 3rem;
+}
+.product_banner > .ad{
+    width: 50%;
+    display: flex;
+}
+.product_banner > .women_collection{
+    background: #E9E6F0;
+}
+.product_banner > .men_trendy{
+    background: #F7EBD9;
+}
+.product_banner > .ad > .ban_titil{
+    margin: 8rem 0 8rem 4.8rem;
+}
+.product_banner > .ad > .ban_titil > p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 6rem;
+    color: #589195;
+}
+.product_banner > .ad > .ban_titil > h3{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #34394C;
+}
+.product_banner > .ad > .ban_titil > a{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-top: 2rem;
+}
+.product_banner > .ad > .ad_img{
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+.product_banner > .women_collection > .ad_img > img{
+    position: absolute;
+    left: -2rem;
+}
+.product_banner > .men_trendy > .ad_img > img{
+    margin-left: 2.6rem;
+}

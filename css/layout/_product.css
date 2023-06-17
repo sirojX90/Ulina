@@ -1,0 +1,102 @@
+/* =========== PRODUCT SECTION =========== */
+
+#product{
+    background: #F6F8FA;
+    background-image: url("/img/services/Ellipse.svg");
+    background-repeat: no-repeat;
+    background-position: 50px 400px;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12.7rem;
+    padding: 9rem 0;
+}
+.product > .product_img{
+    width: 39%;
+}
+.product > .product_info{
+    width: 61%;
+}
+.product > .product_info > .cost_btn{
+    padding-top: 1rem;
+}
+.product_info > .cost_btn > .cost > span{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 6rem;
+    color: #589195;
+}
+.product_info > .cost_btn > .cost > .strik{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 6rem;
+    color: #5B6075;
+    margin-left: 2rem;
+}
+.product_info > .cost_btn > .cost > button{
+    margin-left: 7.2rem;
+}
+.product_info > .cost_btn > .cost > button:hover{
+    color: var(--text-bg-color);
+    background: #DEECEC;
+    border: 2px solid var(--text-bg-color);
+}
+.ends{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #34394C;
+}
+.product_info > .time{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+.product_info > .time > .day{
+    width: 8.3rem;
+    height: 8.3rem;
+    background: var(--width-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_info > .time > .day > p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 6rem;
+    color: #34394C;
+}
+.product_info > .time > p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 6rem;
+    color: #34394C;
+}
+.product_info > .time_text{
+    display: flex;
+    justify-content: start;
+    gap: 7.7rem;
+    margin-left: 2rem;
+}
+.product_info > .time_text > p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 60px;
+    color: #34394C;
+}
