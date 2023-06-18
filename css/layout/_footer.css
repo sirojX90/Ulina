@@ -1,0 +1,119 @@
+/* =========== FOOTER SECTION =========== */
+
+footer{
+    background: #E8EAEF;
+}
+.footer_navbar{
+    padding: 9rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    border-bottom: 1px solid rgba(204, 210, 222, 0.81);
+}
+.footer_navbar > .logo_foot > p{
+    margin: 1rem 0 2.5rem 0;
+}
+.footer_navbar > .logo_foot > form {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.footer_navbar > .logo_foot > form > input{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.03em;
+    color: #AEB0B8;
+    background: var(--width-color);
+    border: none;
+    border-radius: 3px;
+    padding: .6rem 5rem .6rem 1.4rem; 
+}
+.footer_navbar > .logo_foot > form > label{
+    position: absolute;
+    top: 1.6rem;
+    right: 1.5rem;
+}
+.footer_navbar > .logo_foot > .social_network > img{
+    margin-right: 2rem;
+}
+.footer_navbar > .logo_foot > .social_network > img:hover{
+    
+}
+.footer_navbar > .footer_menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+}
+.footer_navbar > .footer_menu > .categor > div{
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+}
+.footer_text_p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #34394C;
+}
+.footer_text_a{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #6E7489;
+}
+.addres > p{
+    margin-bottom: 2rem;
+}
+.addres > ul > li{
+    display: flex;
+    gap: 1.5rem;
+}
+.addres > ul > li > a{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.addres > ul > li > img{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.usful > p{
+    margin-bottom: 2rem;
+}
+.usful > ul > li{
+    margin-bottom: .5rem;
+}
+.categor > p{
+    margin-bottom: 2rem;
+}
+.categor > div > ul > li{
+    margin-bottom: .5rem;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 0 1.5rem 0;
+}
+.footer_bottom > p:first-child{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: #707686;
+}
+.footer_bottom > p:last-child{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02em;
+    color: #707686;
+}

@@ -12,6 +12,10 @@
   font-family: Outfit;
   src: url("/fonts/Outfit-Regular.ttf");
 }
+@font-face {
+  font-family: Open Sans;
+  src: url("/fonts/OpenSans-Regular.ttf");
+}
 
 /* BASIC STYLE */
 
