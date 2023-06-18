@@ -1,0 +1,120 @@
+/* =========== ABOUT SECTION =========== */
+
+#about_section{
+    background: #F6F8FA;
+    margin: 0 auto;
+}
+.about_section{
+    position: relative;
+    height: 666px;
+}
+.ellipses > .ellipse:first-child{
+    position: absolute;
+    top: 4.8rem;
+    right: -9rem;
+    z-index: 1;
+}
+.ellipses > .ellipse:nth-child(2){
+    position: absolute;
+    right: 5rem;
+    bottom: 4rem;
+    z-index: 1;
+}
+.ellipses > .ellipse:nth-child(3){
+    position: absolute;
+    left: -10rem;
+    bottom: 0;
+    z-index: 1;
+}
+.ellipses > .ellipse:last-child{
+    position: absolute;
+    top: 1.9rem;
+    right: 28rem;
+    z-index: 1;
+}
+.about_section > .about_titil{
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    margin: 200px 0;
+    width: 35%;
+}
+.about_titil > h2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #34394C;
+    margin-top: 2rem;
+}
+.about_titil > p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #707686;
+}
+.about_titil > .lef_rig{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+.about_section > .about_commit{
+    display: flex;
+    gap: 3rem;
+    position: absolute;
+    top: 12.9rem;
+    right: 0;
+    bottom: 14.1rem;
+    z-index: 2;
+    width: 65%;
+}
+.about_commit > .customer{
+    background: var(--width-color);
+    box-shadow: 0px 2px 19px 2px rgba(208, 227, 227, 0.49);
+    padding: 5.7rem 3.2rem 4.6rem 3.2rem;
+}
+.about_commit > .customer > .vec_str{
+    display: flex;
+    gap: 12.55rem;
+    align-items: center;
+}
+.about_commit > .customer > p{
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #707686;
+    margin: 2rem 0 1rem 0;
+}
+.about_commit > .customer > .person{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.customer > .person > .name_job > h6{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #34394C;
+}
+.customer > .person > .name_job > p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #B4B9C7;
+}
+.partner_section > .partners{
+    display: flex;
+    justify-content: space-around;
+    margin: 5.5rem 5rem 4rem 5rem;
+}
